@@ -14,7 +14,9 @@ h1 {
 
 #btn {
     background-color: green;
-    border: none;
+    margin: auto;
+    border: 3px green;
+    width: 50%;
     border-radius: 5px;
     color: white;
     padding: 15px 32px;
