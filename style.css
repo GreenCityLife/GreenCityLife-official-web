@@ -12,7 +12,7 @@ h1 {
     zoom: 1.0;
 }
 
-#btn {
+.btn {
     background-color: green;
     margin: auto;
     border: 3px green;
