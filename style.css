@@ -12,6 +12,10 @@ h1 {
     zoom: 1.0;
 }
 
+body {
+  display: flex;
+}
+
 .btn {
     background-color: green;
     margin: auto;
