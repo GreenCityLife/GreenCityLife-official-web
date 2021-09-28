@@ -1,7 +1,11 @@
 html,
  body {
    background-color: #4caf50;
-  }
+   display: flex;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+ }
 
   .content {
    color: white;
