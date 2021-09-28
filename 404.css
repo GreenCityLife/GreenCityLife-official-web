@@ -12,6 +12,13 @@ html,
    justify-content: center;
  }
 
+@media(max-width: 768px) {
+html,
+body{
+font-size:2em;
+background-color:gray;
+}
+
   .content {
    color: white;
   }
