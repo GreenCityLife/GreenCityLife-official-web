@@ -1,6 +1,11 @@
 html,
  body {
    background-color: #4caf50;
+ }
+
+  .content {
+   color: white;
+   text-align: center;
    width: 100vw;
    height: 100vh;
    overflow: hidden;
@@ -10,11 +15,6 @@ html,
    align-content: center;
    align-items: center;
    justify-content: center;
- }
-
-  .content {
-   color: white;
-   text-align: center;
   }
 
    .message {
