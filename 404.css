@@ -1,22 +1,17 @@
 html,
  body {
    background-color: #4caf50;
- }
-
-  .content {
-   color: white;
    width: 100vw;
    height: 100vh;
    overflow: hidden;
    padding: 0;
    margin: 0;
    display: flex;
-   align-content: center;
    align-items: center;
+   align-content: center;
    justify-content: center;
-  }
+ }
 
-   .message {
-    color: white;
-    text-align: center;
-   }
+  .content {
+   color: white;
+  }
