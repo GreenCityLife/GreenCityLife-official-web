@@ -1,0 +1,14 @@
+html,
+ body {
+   background-color: #4caf50;
+  }
+
+  .content {
+   color: white;
+   text-align: center;
+  }
+
+   .message {
+    color: white;
+    text-align: center;
+   }
