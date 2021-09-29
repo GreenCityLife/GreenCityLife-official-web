@@ -23,8 +23,9 @@ justify-content:center;
 }
 
 .homepage {
-border: none;
-  color: white;
+  border: none;
+  margin: 10px;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -32,12 +33,16 @@ border: none;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #008CBA;
-  border-radius: 10px;
+  background-color: white;
+  border-radius: 5px;
   width: 70%;
-  border-color: #008CBA
-  
 }
+
+.homepage:hover {
+   background-color: #008CBA;
+   color: white;
+}
+
 @media(max-width: 768px) {
 html,
 body{
@@ -58,7 +63,7 @@ color: white;
 <h1>Error 404</h1>
 <div>
 Oops, this page was eaten by a monster!<br/>
-Try us⁹ing some options below.
+Try using some options below.
 </div>
 <a href="https://www.greencitylife.ga/" class="homepage">Homepage</a>
 </div>
