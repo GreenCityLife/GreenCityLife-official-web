@@ -10,7 +10,7 @@
     align-content: center;
     justify-content: center;
     text-align: center;
-    flex-direction: coloum;
+    flex-direction: column;
 }
 
 .feature {
