@@ -15,20 +15,19 @@
 
 body {
   overflow: hidden;
-  
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 #desc {
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.btn {
+.download {
     background-color: #FE614E;
     border: none;
     color: white;
@@ -36,11 +35,29 @@ h1 {
     cursor: pointer;
     font-size: 20px;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
-.btn:hover {
+.download:hover {
     background-color: #C971EB;
     color: white;
+}
+
+.open {
+  background-color: #FE614E;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+}
+
+.open:hover {
+  background-color: #C971EB;
+  color: white;
 }
 
 nav {
@@ -78,8 +95,7 @@ label.logo{
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #C971EB
-    ;
+    background: #C971EB;
     transition: .5s;
   }
   .checkbtn{
@@ -131,5 +147,15 @@ label.logo{
     }
     #check:checked ~ ul{
       left: 0;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+    
+    #desc {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
   }
