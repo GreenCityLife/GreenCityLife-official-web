@@ -28,6 +28,21 @@
   background-color: #eeeeee;
 }
 
+.downloaders {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 #features {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -62,11 +77,13 @@ p {
     font-size: 20px;
     margin-top: 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .download:hover {
     background-color: #C971EB;
     color: white;
+    text-decoration: none;
 }
 
 .open {
@@ -77,13 +94,18 @@ p {
   cursor: pointer;
   font-size: 20px;
   margin-top: 10px;
-  margin-bottom: 100px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .open:hover {
   background-color: #C971EB;
   color: white;
+  text-decoration: none;
+}
+
+.home img {
+  margin-top: 30px;
 }
 
 nav {
@@ -95,6 +117,7 @@ nav {
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    position: fixed;
 }
 
 label.logo{
