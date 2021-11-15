@@ -43,6 +43,21 @@
   flex-direction: column;
 }
 
+.members {
+  width: 100vw;
+  height: min-content;
+  overflow: hidden;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+
 #features {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -52,17 +67,18 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
-  font-size: 30px;
-}
-
-#desc {
+.home p{
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-p {
+.members .team-members .col-md-3 img {
+  border-radius: 50%;
+}
+
+.members .team-members .col-md-3,
+.feature .col-md-4 p {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 30px;
@@ -94,6 +110,7 @@ p {
   cursor: pointer;
   font-size: 20px;
   margin-top: 10px;
+  margin-bottom: 30px;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -104,8 +121,21 @@ p {
   text-decoration: none;
 }
 
+.downloaders .download-coloums .col-md-6 {
+  margin-top: 30px;
+}
+
+.home img {
+  margin-top: 100px;
+}
+
+h3 {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
 nav {
-    background: #FE614E;
+    background: #ff6143;
     height: 80px;
     width: 100%;
     padding: 0;
@@ -131,6 +161,7 @@ label.logo{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    text-align: center;
   }
   nav ul li a{
     color: white;
