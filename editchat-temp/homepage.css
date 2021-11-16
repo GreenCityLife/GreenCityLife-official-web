@@ -58,6 +58,20 @@
   background-color: #eeeeee;
 }
 
+.contacts {
+  width: 100vw;
+  height: min-content;
+  overflow: hidden;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 #features {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -67,8 +81,9 @@ body {
   overflow-x: hidden;
 }
 
+.contacts p,
 .home p{
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -121,6 +136,25 @@ body {
   text-decoration: none;
 }
 
+.discord {
+  background-color: #5865F2;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.discord:hover {
+  background-color: #C971EB;
+  color: white;
+  text-decoration: none;
+}
+
 .downloaders .download-coloums .col-md-6 {
   margin-top: 30px;
 }
@@ -144,6 +178,7 @@ nav {
     list-style: none;
     box-sizing: border-box;
     position: fixed;
+    z-index: 999;
 }
 
 label.logo{
