@@ -72,6 +72,22 @@
   flex-direction: column;
 }
 
+footer {
+  width: 100vw;
+  height: min-content;
+  overflow: hidden;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #FE614E;
+}
+
 #features {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -166,6 +182,11 @@ body {
 h3 {
   margin-left: 35px;
   margin-right: 35px;
+}
+
+footer p {
+  color: #fff;
+  font-size: medium;
 }
 
 nav {
