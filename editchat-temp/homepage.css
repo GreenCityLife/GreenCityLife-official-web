@@ -265,6 +265,7 @@ label.logo{
       left: -100%;
       text-align: center;
       transition: all .5s;
+      padding: 0px;
     }
     nav ul li{
       display: block;
