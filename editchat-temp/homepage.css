@@ -236,7 +236,7 @@ label.logo{
     color: white;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 0px;
     cursor: pointer;
     display: none;
   }
